@@ -10,6 +10,7 @@ const Instructiontxt = ({children, style}) => {
 
 const styles = StyleSheet.create({
     instructionTxt: {
+        fontFamily: 'open-sans',
         color : colors.accent500,
         fontSize: 24
     },

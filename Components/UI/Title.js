@@ -1,6 +1,5 @@
 import React from 'react'
 import { StyleSheet, Text } from 'react-native'
-import colors from '../../constants/colors'
 
 const Title = ({children}) => {
   return (
@@ -10,8 +9,9 @@ const Title = ({children}) => {
 
 const styles = StyleSheet.create({
     title:{
+        fontFamily: 'open-sans-bold',
         fontSize: 18,
-        fontWeight: 'bold',
+        // fontWeight: 'bold',
         color: 'white',
         textAlign: 'center',
         borderWidth: 2,
